@@ -65,7 +65,10 @@ export default {
     profile: 'Profile'
   },
   navbar: {
-    dashboard: 'Dashboard',
+    dashboard: 'Home',
+    engineering: 'Engineering',
+    purchase: 'Purchase',
+    opportunity: 'Opportunity',
     github: 'Github',
     logOut: 'Log Out',
     profile: 'Profile',

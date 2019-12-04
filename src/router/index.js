@@ -41,8 +41,10 @@ import nestedRouter from './modules/nested'
 export const constantRoutes = [
   {
     path: '/redirect',
+    // 你可以选择不同的layout组件
     component: Layout,
     hidden: true,
+    // 这里开始对应的路由都会显示在app-main中 如上图所示
     children: [
       {
         path: '/redirect/:path*',

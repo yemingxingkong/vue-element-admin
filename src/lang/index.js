@@ -44,6 +44,7 @@ export function getLanguage() {
   }
   return 'en'
 }
+// register with `formatter` option  注册 `formatter` 选项
 const i18n = new VueI18n({
   // set locale
   // options: en | zh | es

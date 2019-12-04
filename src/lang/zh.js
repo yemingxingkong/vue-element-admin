@@ -66,6 +66,9 @@ export default {
   },
   navbar: {
     dashboard: '首页',
+    engineering: '工程信息',
+    purchase: '采购需求',
+    opportunity: '工程商机',
     github: '项目地址',
     logOut: '退出登录',
     profile: '个人中心',
